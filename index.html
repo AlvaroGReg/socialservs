@@ -9,11 +9,12 @@
   </head>
 
   <body>
+    <!--HEADER-->
     <header>
       <div class="headerimg">
-        <img src="" alt="" />
+        <img src="src/icon.png" alt="Icono limpieza" />
       </div>
-
+      <!--NAV-->
       <nav>
         <ul>
           <a href="#ayuda">
@@ -39,8 +40,9 @@
         </ul>
       </nav>
     </header>
-
+    <!--MAIN-->
     <main>
+      <!--AYUDA-->
       <section id="ayuda">
         <div class="ayudacontainer">
           <div class="ayudacontent">
@@ -106,7 +108,7 @@
           </div>
         </div>
       </section>
-
+      <!--SERVICIOS-->
       <section id="servicios">
         <h2>Prestamos servicio en:</h2>
         <ul>
@@ -149,13 +151,47 @@
           </li>
         </ul>
       </section>
-      <section id="tiendas">
+      <!--TIENDAS-->
+      <section class="tiendas" id="tiendas">
         <ul>
           <li>
             <div>
               <p>Ortopedia en Zamora</p>
-              <p>Ortopedia en Toro</p>
+              <img
+                class="portada"
+                src="src/ortopediazamora.png"
+                alt="fachada ortopedia Zamora"
+              />
+              <a href="https://www.ortopediatrescruces.com/" target="_blank">
+                <img class="icon" src="src/iconopen.png" alt="Visit web"
+              /></a>
+            </div>
+          </li>
+          <li>
+            <div>
               <p>Ortopedia en Benavente</p>
+              <img
+                class="portada"
+                src="src/ortopediabenavente.png"
+                alt="fachada ortopedia Benavente"
+              /><a href="https://www.ortopediatrescruces.com/" target="_blank">
+                <img class="icon" src="src/iconopen.png" alt="Visit web"
+              /></a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>Ortopedia en Toro</p>
+              <img
+                class="portada"
+                src="src/ortopediatoro.png"
+                alt="fachada ortopedia Toro"
+              /><a
+                href="https://www.cylex.es/toro-zamora/ortopedia-peio-12296452.html"
+                target="_blank"
+              >
+                <img class="icon" src="src/iconopen.png" alt="Visit web"
+              /></a>
             </div>
           </li>
         </ul>
@@ -194,61 +230,69 @@
             ></iframe>
           </div>
         </div>
-
+        <!--FORM-->
         <div class="contactform">
           <form action="mailto: alvaro.gracia.reg@gmail.com" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" maxlength="20" name="nombre" />
 
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" maxlength="40" name="apellidos" />
+            <div class="formname">
+              <label for="nombre">Nombre:</label>
+              <input type="text" maxlength="20" name="nombre" />
+              <label for="apellidos">Apellidos:</label>
+              <input type="text" maxlength="40" name="apellidos" />
+            </div>
 
-            <label for="telefono">Teléfono:</label>
-            <input type="number" maxlength="12" name="telefono" />
+            <div class="formcontact">
+              <label for="telefono">Teléfono:</label>
+              <input type="number" maxlength="12" name="telefono" />
 
-            <label for="mail">Correo electrónico:</label>
-            <input type="text" maxlength="50" name="mail" />
+              <label for="mail">Correo electrónico:</label>
+              <input type="text" maxlength="50" name="mail" />
+            </div>
 
-            <label for="asunto">Asunto:</label>
-            <input type="text" maxlength="30" name="asunto" />
+            <div class="formmsg">
+                <div>
+              <label for="asunto">Asunto:</label>
+              <input type="text" maxlength="30" name="asunto" />
+</div>
 
-            <label for="mensaje">Mensaje:</label>
-            <input type="text" maxlength="250" name="mensaje" />
-            <input type="submit">
+              <textarea type="text" maxlength="250" name="mensaje">Escriba su mensaje aquí...</textarea>
+            </div>
+
+            <input type="submit" />
           </form>
         </div>
       </section>
-
+      <!--PRIVACIDAD-->
       <section id="privacidad">
         <p>
-          Nombre Social: <br/>
-           Nombre comercial:<br/>
-           CIF: <br/>
-           Dirección: <br/>
-           De conformidad con lo
-          que establece la Ley Orgánica 15/1999 de Protección de Datos de
-          Carácter Personal, se le informa que los datos personales que nos
-          facilite mediante el uso de los formularios sitos en la web de
-          edadessevilla.es, serán incorporados a un fichero titularidad de
-          Edades Servicios Sociales Dos Hermanas S.C., con la finalidad de
-          gestionar su solicitud y enviarle información más detallada. Asimismo,
-          Edades Servicios Sociales Dos Hermanas S.C. le informa de la
-          posibilidad de ejercer los derechos de acceso, cancelación,
-          rectificación y oposición mediante un escrito a la dirección C/El
-          Ejido, 7 – Dos Hermanas – Sevilla, o por email a la dirección
-          servicios@edadessevilla.es. Mientras no nos comunique lo contrario,
-          entenderemos que sus datos no han sido modificados, que usted se
-          compromete a notificarnos cualquier variación y que tenemos el
-          consentimiento para utilizarlos a fin de poder fidelizar la relación
-          entre las partes. De acuerdo con lo que establece la Ley 34/2002, de
-          Servicios de la Sociedad de la Información y el Comercio Electrónico
-          en su artículo 21, solicitamos su consentimiento para poder realizar
-          comunicaciones publicitarias que consideremos puedan ser de su
-          interés, por correo electrónico o por cualquier otro medio de
-          comunicación electrónica equivalente.
+          Nombre Social: <br />
+          Nombre comercial:<br />
+          CIF: <br />
+          Dirección: <br />
+          De conformidad con lo que establece la Ley Orgánica 15/1999 de
+          Protección de Datos de Carácter Personal, se le informa que los datos
+          personales que nos facilite mediante el uso de los formularios sitos
+          en la web de edadessevilla.es, serán incorporados a un fichero
+          titularidad de Edades Servicios Sociales Dos Hermanas S.C., con la
+          finalidad de gestionar su solicitud y enviarle información más
+          detallada. Asimismo, Edades Servicios Sociales Dos Hermanas S.C. le
+          informa de la posibilidad de ejercer los derechos de acceso,
+          cancelación, rectificación y oposición mediante un escrito a la
+          dirección C/El Ejido, 7 – Dos Hermanas – Sevilla, o por email a la
+          dirección servicios@edadessevilla.es. Mientras no nos comunique lo
+          contrario, entenderemos que sus datos no han sido modificados, que
+          usted se compromete a notificarnos cualquier variación y que tenemos
+          el consentimiento para utilizarlos a fin de poder fidelizar la
+          relación entre las partes. De acuerdo con lo que establece la Ley
+          34/2002, de Servicios de la Sociedad de la Información y el Comercio
+          Electrónico en su artículo 21, solicitamos su consentimiento para
+          poder realizar comunicaciones publicitarias que consideremos puedan
+          ser de su interés, por correo electrónico o por cualquier otro medio
+          de comunicación electrónica equivalente.
         </p>
       </section>
     </main>
+    <!--FOOTER-->
     <footer>
       <ul>
         <a href="#contacto">
@@ -259,7 +303,8 @@
         <a href="#privacidad">
           <li>
             <p>Privacidad</p>
-          </li></a>
+          </li></a
+        >
       </ul>
     </footer>
   </body>
