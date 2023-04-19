@@ -5,13 +5,12 @@
     text-decoration: none;
 }
 body{
-
-    background-color: #00e6ff;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #00e6ff 40px ), repeating-linear-gradient( #b5f8ff55, #b5f8ff );
+    background-color: #09BC8A;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #09BC8A 40px ), repeating-linear-gradient( #daf5f8, #75DDDD );
 }
 
 p,h1,h2,h3,label{
-    color: rgb(0, 0, 0);
+    color: #172A3A;
 }
 
 p{
@@ -34,7 +33,7 @@ h1{
 header{
     position: fixed;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #09BC8A;
     height: 7vh;
     display: flex;
     align-items: center;
@@ -77,8 +76,22 @@ section{
 /*SERVICIOS*/
 .servicios{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicios>article{
+    display: flex;
+    gap: 10px;
+    background-color: #09bc8980;
+    padding: 10px;
+    border-radius: 25px;
+}
+.servicios>article>img{
+    width: 200px;
+    height: 200px;
 }
 
 /*TIENDAS*/
@@ -97,7 +110,8 @@ section{
 }
 .tiendas>ul>li>div>p{
     position: absolute;
-    background-color: aliceblue;
+    background-color: #508991;
+    color: wheat;
     width: 100%;
     text-align: center;
 }
@@ -169,10 +183,6 @@ footer{
     justify-content: center;
 }
 
-footer>.col{
-    background-color: violet;
-}
-
 footer>ul{
     display: flex;
     gap: 50px;
@@ -199,7 +209,7 @@ footer>ul{
   border-radius: 8px;
   overflow: hidden;
   
-  background: #4b45ff;
+  background: #d0ceff;
 }
 
 .tab {
@@ -211,9 +221,8 @@ footer>ul{
   justify-content: space-between;
   font-size: 1.6em;
   padding: 1em;
-  background-color: #2f00ff;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #3f5cff 40px ), repeating-linear-gradient( #cafaff55, #b5f8ff );
-
+  background-color: #172A3A;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   /* Icon */
